@@ -1,0 +1,21 @@
+server {
+    listen 80;
+    server_name {{ ansible_host }};  # Используем IP сервера, а не localhost
+    
+    root {{ lighthouse_dir }};
+    index index.html;
+    
+    location / {
+        try_files $uri $uri/ =404;
+    }
+    
+    # Добавить обработку ошибок
+    error_page 403 /403.html;
+    error_page 404 /404.html;
+    
+    # Разрешить доступ ко всем файлам
+    location ~ \.(js|css|png|jpg|jpeg|gif|ico|html)$ {
+        access_log off;
+        expires max;
+    }
+}
