@@ -1,5 +1,0 @@
-{
-    "yaml.schemas": {
-        "https://raw.githubusercontent.com/ansible/ansible-lint/main/src/ansiblelint/schemas/requirements.json": "vscode-vfs://github/vladmgb/hw-ansible-roles/playbook/requirements.yml"
-    }
-}
