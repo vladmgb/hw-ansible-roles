@@ -38,6 +38,9 @@
 
 Сделано.
 
+<img width="902" height="335" alt="image" src="https://github.com/user-attachments/assets/6fd536cb-36b5-4849-a596-b5e828c1fd92" />
+
+
 Выложите все roles в репозитории. Проставьте теги, используя семантическую нумерацию. Добавьте roles в requirements.yml в playbook.
 
 Переработайте playbook на использование roles. Не забудьте про зависимости LightHouse и возможности совмещения roles с tasks.
