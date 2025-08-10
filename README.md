@@ -44,10 +44,39 @@
 
 **Выложите все roles в репозитории. Проставьте теги, используя семантическую нумерацию. Добавьте roles в requirements.yml в playbook.**
 
+Сделано
+
+```
+---
+- src: https://github.com/AlexeySetevoi/ansible-clickhouse.git
+  scm: git
+  version: "1.13"
+  name: clickhouse
+
+- src: https://github.com/vladmgb/vector-role.git
+  scm: git
+  version: "v1.1"
+  name: vector-role
+
+- src: https://github.com/vladmgb/lighthouse-role.git
+  scm: git
+  version: "1.1"
+  name: lighthouse-role
+
+```
+
 **Переработайте playbook на использование roles. Не забудьте про зависимости LightHouse и возможности совмещения roles с tasks.**
+
+
 
 **Выложите playbook в репозиторий.**
 
-ссылка 
+Готово
 
 **В ответе дайте ссылки на оба репозитория с roles и одну ссылку на репозиторий с playbook.**
+
+[Ссылка на Lighthouse-role](https://github.com/vladmgb/lighthouse-role)
+
+[Ссылка на Vector-role](https://github.com/vladmgb/vector-role)
+
+[Ссылка на Playbook](https://github.com/vladmgb/hw-ansible-roles)
