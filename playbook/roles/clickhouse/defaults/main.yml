@@ -1,7 +1,7 @@
 ---
 # defaults file for clickhouse
 
-clickhouse_version: 'latest'
+clickhouse_version: "25.3.4.190"
 clickhouse_service_ensure: 'started'
 clickhouse_service_enable: true
 
