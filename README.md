@@ -67,8 +67,10 @@
 
 **Переработайте playbook на использование roles. Не забудьте про зависимости LightHouse и возможности совмещения roles с tasks.**
 
-Запустил playbook
-```
+<details>
+<summary>Запустил playbook</summary>
+  
+ ```
 
 vova@Mynote:/mnt/c/Users/Vova$ ansible-playbook -i hw-ansible-roles/playbook/inventory/prod.yml hw-ansible-roles/playbook/site.yml
 
@@ -183,8 +185,8 @@ PLAY RECAP *********************************************************************
 clickhouse-01              : ok=23   changed=0    unreachable=0    failed=0    skipped=10   rescued=0    ignored=0   
 lighthouse-01              : ok=12   changed=4    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0
 vector-01                  : ok=5    changed=0    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0
-
 ```
+</details>
 
 
 **Выложите playbook в репозиторий.**
